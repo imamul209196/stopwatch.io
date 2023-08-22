@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="buttons">
+        <img src="images/pause3-removebg-preview.png" onclick="watchstop()" />
+        <img src="images/play3-removebg-preview.png" onclick="watchstart()" />
+        <img src="images/reset3-removebg-preview.png" onclick="watchreset()" />
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
